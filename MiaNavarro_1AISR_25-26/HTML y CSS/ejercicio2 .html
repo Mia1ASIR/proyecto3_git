@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>EJERCICIO HTML 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    a {
+      color: rgb(4, 83, 4);
+      font-size: 1em;
+    }
+
+    body {
+      background: #eed;
+      font-family: verdana;
+      margin: 10px auto;
+      width: 95%;
+    }
+
+    h1 {
+      color: rgb(5, 5, 107);
+      font-size: 1.8em;
+      padding-bottom: .5em;
+    }
+
+    li {
+      margin-left: 1.3em;
+      padding-bottom: .3em;
+      padding-right: .2em;
+    }
+
+    p {
+      font-size: 1em;
+      padding-bottom: .5em;
+    }
+
+    #encabezado {
+      background-color: #000;
+      color: rgb(224, 125, 75);
+      padding: 2%;
+    }
+
+    #cuadros {
+      background-color: #ddd;
+      overflow: hidden;
+      padding-bottom: 2%;
+    }
+
+    #texto {
+      background-color: #ddd;
+      float: left;
+      margin-bottom: -32767px;
+      max-width: -moz-calc(92% - 120px);
+      max-width: -webkit-calc(92% - 120px);
+      max-width: calc(92% - 120px);
+      padding: 2%;
+      padding-bottom: 32767px;
+      width: 71%;
+    }
+
+    #enlaces {
+      background-color: #999;
+      float: left;
+      margin-bottom: -32767px;
+      min-width: 120px;
+      padding: 2%;
+      padding-bottom: 32767px;
+      width: 21%;
+    }
+  </style>
+</head>
+
+<body>
+  <header id="encabezado">
+    <p>Diseño HTML/CSS fluido.</p>
+  </header>
+  <main id="cuadros">
+    <section id="enlaces">
+      <ul>
+        <li><a href="#">Enlace 1</a></li>
+        <li><a href="#">Enlace 2</a></li>
+        <li><a href="#">Enlace 3</a></li>
+        <li><a href="#">Enlace 4</a></li>
+        <li><a href="#">Enlace 5</a></li>
+      </ul>
+    </section>
+    <section id="texto">
+      <h1>Elemplo: Diseño fluido con dos columnas</h1>
+      <p>Al cambiar la anchura de la ventana del navegador donde se esté
+        visualizando esta página web, el tamaño de las diferentes áreas
+        de la página se redimensionan.</p>
+      <p>Obsérvese que, la imagen también se redimensiona.</p>
+    </section>
+  </main>
+</body>
+
+</html>
